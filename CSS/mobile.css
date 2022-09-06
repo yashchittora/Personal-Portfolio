@@ -1,0 +1,44 @@
+@media screen and (max-width:1000px){
+    .intro , .info{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .education-content{
+        width: 300px;}
+
+    .education{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:700px){
+    .intro{
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .intro-white , .name {
+        font-size: 40px;
+
+    }
+}

@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --main-pink: rgb(241, 137, 187);
+    --main-grey: #24252a;
+    --main-white: aliceblue;
+}
+
+* {
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'montserrat';
+    background-color: var(--main-grey);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    min-height: calc(100vh-100px);
+}
+
+
+.index-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    font-family: 'Silkscreen';
+    color: var(--main-white);
+    cursor: default;
+    font-size: 50px;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    z-index: 2;
+}
+
+.intro-white{
+    font-family: 'Silkscreen';
+    font-size: 50px;
+    
+    color: var(--main-white);
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.twitter,
+.instagram {
+    height: 22px;
+    width: 22px;
+    border-radius: 7px;
+}
+
+.insta-bg{
+    transition: all 0.3s ease-in-out 0s;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insta-bg:hover{
+    background-color: var(--main-pink);
+}
+
+.name {
+    font-family: 'Silkscreen';
+    font-size: 50px;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: var(--main-white);
+}
+
+.name:hover {
+    color: var(--main-pink);
+    cursor: pointer;
+}
+
+.info {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 100px 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.info-white {
+    color: var(--main-white);
+    font-size: 20px;
+
+}
+
+.info-pink {
+    color: var(--main-pink);
+    padding-left: 6px;
+}
+
+.index-body {
+    display: flex;
+    align-items: center;
+    height: 600px;
+}
+
+/* about body starts ----------------------------------------------*/
+
+.about-body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.education,
+.skills {
+    padding: 50px;
+    margin: auto;
+}
+
+
+
+.education-heading,
+.skills-heading {
+    color: var(--main-pink);
+    font-size: 25px;
+    font-weight: 700;
+    margin: auto;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.education-content,
+.skills-content {
+    /* width: 150px; */
+    color: var(--main-white);
+    text-align: center;
+    padding: 3px;
+}
+
+.education-content,
+.education-heading,
+.skills-content,
+.skills-heading :hover {
+    cursor: default;
+}
+
+.edu-link {
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    color: var(--main-white)e;
+}
+
+.edu-link:hover {
+    color: var(--main-pink);
+}
+
+.timeline{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 65px;
+}
+
+.timeline-heading{
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.card{
+    display: flex;
+    width: 500px;
+}
+
+.card:hover{
+    background-color: rgba(255,255,255, 0.3);
+
+}
+
+
+
+
+/* CONTACT.HTML STYLES -----------------------------------------------*/
+
+.contact-body {
+    display: flex;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.glass {
+    height: 600px;
+    width:700px;
+    background: white;
+    background: linear-gradient(to right bottom,
+            rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.2));
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+}
+
+.circle {
+    position: absolute;
+    border-radius: 100px;
+    right: 23%;
+    top: 7%;
+    height: 200px;
+    width: 200px;
+    background: hsla(306, 89%, 71%, 1);
+
+    background: linear-gradient(45deg, hsla(306, 89%, 71%, 0.7) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+    background: -moz-linear-gradient(45deg, hsla(306, 89%, 71%, 0.7) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+    background: -webkit-linear-gradient(45deg, hsla(306, 89%, 71%, 0.7) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#F772E9", endColorstr="#FFFFFF", GradientType=1);
+
+    backdrop-filter: blur(2rem);
+
+
+}
+
+
+form , .glass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    height: 40px;
+    width: 500px;
+    border-radius: 32px;
+    background: rgba(red, green, blue, 0);
+    border: none;
+}
+
+.icon{
+   display: none;
+    position: absolute;
+    height: 0px;
+    width: 0px;
+}
+
+.edu-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+
+}
+
+.one{
+    font-size: 30px;
+    color: var(--main-pink);
+    padding: 30px;
+}
+
+.edu-all a{
+    text-decoration: none;
+    color: var(--main-white);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+}
+
+.edu-all a:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease-in-out;
+    
+}
