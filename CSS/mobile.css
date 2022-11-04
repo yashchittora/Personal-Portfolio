@@ -41,4 +41,15 @@
         font-size: 40px;
 
     }
+
+    .soc-box{
+        font-size: 13px;
+        width: 104px;
+        height: 31px;
+    }
+
+    .social{
+        display: flex;
+        flex-direction: column;
+    }
 }
