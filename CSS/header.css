@@ -53,10 +53,13 @@ header ul li a{
     font-weight: 500;
     color: var(--main-white);
     transition: all 0.3s ease 0s;
+    
 }
 
 .button:hover,
 .current-button {
+    border-color: var(--main-pink);
     background-color: var(--main-pink);
     color: var(--main-grey);
+    
 }
