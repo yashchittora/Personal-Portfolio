@@ -138,29 +138,27 @@ body{
         color: #ffd6a5;
     }
     25%{
-        color: #fdffb6;
+        color: #fbff95;
     }
     37.5%{
-        color: #caffbf;
+        color: #b6ffa7;
     }
     50%{
-        color: #9bf6ff;
+        color: #94f6ff;
     }
     62.5%{
         color: #a0c4ff;
     }
     75%{
-        color: #bdb2ff;
+        color: #b5a8ff;
     }
     87.5%{
-        color: #ffc6ff;
+        color: #ffbaff;
     }
     100%{
-        color: #ffadad;
+        color: #fea4a4;
     }
-    /* 100%{
-        color: #ffc6ff;
-    } */
+    
 }
 
 .name:hover {
