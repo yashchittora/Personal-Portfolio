@@ -102,8 +102,8 @@ body{
 }
 
 .cert{
-
     color: var(--main-pink);
+ 
 }
 
 /* .insta-bg{
@@ -287,7 +287,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .contact_info{
@@ -394,5 +394,45 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.dbutton {
+    /* background-color: rgb(241, 137, 187); */
+    padding: 7px 10px;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: var(--main-pink);
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--main-white);
+    transition: all 0.3s ease 0s;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+
+.dbutton:hover
+{
+border-color: var(--main-pink);
+background-color: var(--main-pink);
+color: var(--main-grey);
+transition: all 0.3s ease 0s;
+/* box-shadow: -5px 5px 0px 0px var(--main-white);*/
+cursor: pointer;
+
+
+}
+.dbutton i{
+    transition: background-color 0.3s ease 0s;
+    cursor: pointer;
+
+}
+.dbutton:hover i {
+    color: var(--main-grey);
+    background-color: var(--main-pink);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
 

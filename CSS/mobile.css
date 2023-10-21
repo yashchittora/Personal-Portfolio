@@ -56,4 +56,39 @@
     .info-white{
         font-size: smaller;
     }
+
+    .longer-soc-box{
+        width: 150px;
+        text-decoration: none;
+        box-shadow:  -5px 5px var(--main-pink);
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid aliceblue;
+        margin: 15px;
+        transition: all 0.3s ease;
+        flex-wrap: wrap;
+        /* font-size: = smaller; */
+        font-size: 13px;
+        
+    }
+
+    .dbutton {
+        /* background-color: rgb(241, 137, 187); */
+        padding: 7px 10px;
+        border-style: solid;
+        border-radius: 50px;
+        border-width: 2px;
+        border-color: var(--main-pink);
+        text-decoration: none;
+        font-weight: 500;
+        color: var(--main-white);
+        transition: all 0.3s ease 0s;
+        font-size: 14px;
+        margin-top: 15px;
+        cursor: pointer;
+    
+    }
+
 }
