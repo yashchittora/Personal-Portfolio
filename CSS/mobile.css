@@ -125,4 +125,8 @@
         animation-delay: 1.4s;
       }
 
+      .back{
+        padding-top: 8%;
+        padding-bottom: 10%;
+      }
 }
