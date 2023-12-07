@@ -57,6 +57,13 @@ body{
     z-index: 2;
 }
 
+.introp{
+    color: var(--main-pink);
+    position: relative;
+    bottom: 33%;
+    font-size: large;
+}
+
 .intro-white{
     font-family: 'Silkscreen';
     font-size: 50px;
@@ -198,8 +205,9 @@ body{
 
 .info-a{
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    padding: 80px 80px;
+    font-size: 18px;
+    padding: 80px 200px;
+    padding-top: 40px;
     text-align: center;
     display: flex;
     align-items: center;

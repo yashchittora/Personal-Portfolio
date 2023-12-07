@@ -24,10 +24,17 @@
         justify-content: center;
         flex-direction: column;
     }
+    .info-a{
+      padding: 80px 80px;
+  }
 }
 
 
 @media screen and (max-width:700px){
+
+  .info-a{
+    padding: 80px 90px;
+}
     .intro{
         width: 200px;
         display: flex;
