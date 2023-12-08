@@ -60,8 +60,14 @@ body{
 .introp{
     color: var(--main-pink);
     position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
     bottom: 33%;
     font-size: large;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .intro-white{
@@ -104,7 +110,7 @@ body{
 }
 
 .longer-soc-box{
-    width: 200px;
+    width: 220px;
     text-decoration: none;
     box-shadow:  -5px 5px var(--main-pink);
     height: 35px;

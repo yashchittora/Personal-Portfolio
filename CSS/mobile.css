@@ -27,6 +27,13 @@
     .info-a{
       padding: 80px 80px;
   }
+
+  .introp{
+    color: var(--main-pink);
+    position: relative;
+    bottom: 20%;
+    font-size: large;
+}
 }
 
 
@@ -43,6 +50,13 @@
         align-items: center;
         
     }
+
+    .introp{
+      color: var(--main-pink);
+      position: relative;
+      bottom: 2%;
+      font-size: large;
+  }
     
     .intro-white , .name {
         font-size: 30px;
