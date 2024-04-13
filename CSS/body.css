@@ -57,12 +57,17 @@ body{
     z-index: 2;
 }
 
+.space{
+    position: relative;
+    bottom: 13%;
+}
+
 .introp{
     color: var(--main-pink);
     position: relative;
     padding-left: 40px;
     padding-right: 40px;
-    bottom: 33%;
+    bottom: 24%;
     font-size: large;
     text-align: center;
     display: flex;
@@ -511,6 +516,9 @@ cursor: pointer;
 }
 .animatedy:nth-child(7) {
     animation-delay: 1.4s;
+}
+.animatedy:nth-child(8) {
+    animation-delay: 1.6s;
 }
   
 .contact-body {
