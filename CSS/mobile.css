@@ -43,9 +43,9 @@
 
 @media screen and (max-width:700px) {
 
-  .space{
+  /* .space{
     display: none;
-}
+} */
 
   .info-a {
     padding: 80px 90px;
@@ -103,6 +103,14 @@
     /* font-size: = smaller; */
     font-size: 13px;
 
+  }
+
+  .more-longest-soc-box {
+    font-size: 13px;
+  }
+
+  .longest-soc-box {
+    font-size: 13px;
   }
 
   .dbutton {
@@ -246,7 +254,7 @@
     font-weight: 500;
     color: var(--main-white);
     transition: all 0.3s ease 0s;
-    font-size: 14px;
+    font-size: 10px;
     margin-top: 15px;
     cursor: pointer;
 
@@ -300,5 +308,5 @@
   header ul li {
     display: inline-block;
     padding: 5px 5px;
-}
+  }
 }
